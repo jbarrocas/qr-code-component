@@ -16,40 +16,41 @@ body {
 }
 
 .card {
-    width: 290px;
-    height: 450px;
+    width: 320px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
-    border-radius: 18px;
+    border-radius: 16px;
     background-color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
 }
 
 .qrCode {
-    width: 260px;
+    width: 288px;
     border-radius: 8px;
     display: flex;
-    margin-top: 15px;
+    margin-top: 16px;
 }
 
 .title {
     width: 260px;
     display: flex;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 700;
     color: hsl(215, 44%, 22%);
     text-align: center;
     margin-top: 24px;
 }
 
 .text {
-    width: 240px;
+    width: 260px;
     display: flex;
-    font-size: 14px;
+    font-size: 15px;
     color: hsl(220, 15%, 55%);
     text-align: center;
-    margin-top: 16px;
+    margin-top: 18px;
 }
 
 .attribution {
